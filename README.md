@@ -37,10 +37,10 @@ Light Rail	Gradual growth	Continue expansion & promotion
 Rapid Route	Upward trend	Increase capacity during rush hours
 
 📂 Repository Structure
-├── Untitled27.ipynb          # Colab notebook (EDA + Forecast + Visualization)
-├── REPORT.md                 # Detailed analytical report
-├── README.md                 # Project overview (this file)
-└── data/                     # Dataset folder (if applicable)
+├── Untitled27.ipynb          
+├── REPORT.md                 
+├── README.md                 
+└── data/                     
 
 🚀 How to Run
 1. Clone this repository  git clone
