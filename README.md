@@ -67,6 +67,36 @@ Each service’s historical ridership was modeled separately to predict future t
 * Weekly seasonality and trend visualization
 * Interactive insight dashboard with performance metrics and recommendations
 
+KEY INSIGHTS ANALYSIS
+
+1. COVID-19 IMPACT ANALYSIS:
+   Pre-COVID average Local Route: 12762
+   During COVID average Local Route: 8617
+   Post-COVID average Local Route: 9824
+   COVID impact: -32.5%
+
+2. SERVICE TYPE DOMINANCE:
+   Local Route: 30.7%
+   Light Rail: 22.3%
+   Peak Service: 0.6%
+   Rapid Route: 39.0%
+   School: 7.3%
+   Other: 0.1%
+   Dominant Service: Rapid Route
+
+3. SEASONAL PATTERNS:
+   Peak month for Local Route: 2 (12771 avg passengers)
+   Lowest month for Local Route: 1 (7238 avg passengers)
+
+4. WEEKDAY VS WEEKEND PATTERNS:
+   Local Route: Weekdays 12755 vs Weekends 2732 (+78.6% difference)
+   Rapid Route: Weekdays 15297 vs Weekends 5847 (+61.8% difference)
+
+5. YEARLY GROWTH TRENDS:
+   Local Route: +31.7% change from 2019 to 2024
+   Rapid Route: +18.5% change from 2019 to 2024
+   Light Rail: +33.2% change from 2019 to 2024
+
 🧭 Workflow
 1. Load & Clean Data
     * Convert timestamps to datetime
