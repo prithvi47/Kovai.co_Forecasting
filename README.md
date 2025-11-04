@@ -31,6 +31,13 @@ The goal is to uncover **seasonality, trends, and outliers**, and to predict sho
 
 A **Random Forest Regressor** model was used for short-term (7-day) forecasts.
 Each service’s historical ridership was modeled separately to predict future trends.
+The Random Forest algorithm is a non-linear ensemble learning method that combines multiple decision trees to predict numerical outcomes.
+Unlike SARIMA, it can capture complex non-linear relationships and interactions between multiple time-dependent features.
+
+Working Steps:
+Each decision tree learns a subset of data patterns.
+Predictions from all trees are averaged to produce a robust final forecast.
+The model uses engineered features to infer future passenger counts.
 
 ### 🧩 Model Evaluation Metrics
 
