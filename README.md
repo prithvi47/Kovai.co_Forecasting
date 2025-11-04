@@ -1,11 +1,11 @@
 # Kovai.co_Forecasting
 
-📌 Objective
+ Objective
 
 This assesment focuses on analyzing and forecasting public transport ridership data across multiple service types such as **Local Route**, **Light Rail**, **Peak Service**, **Rapid Route**, and **School Services**.
 The goal is to uncover **seasonality, trends, and outliers**, and to predict short-term ridership demand for operational optimization.
 
-🧹 Step 1: Exploratory Data Analysis (EDA)
+ Step 1: Exploratory Data Analysis (EDA)
 
 🔹 Data Cleaning
 
@@ -27,7 +27,7 @@ The goal is to uncover **seasonality, trends, and outliers**, and to predict sho
 * Outliers were retained when corresponding to real-world events.
 
 
-🔮 Step 2: Forecasting
+ Step 2: Forecasting
 
 A **Random Forest Regressor** model was used for short-term (7-day) forecasts.
 Each service’s historical ridership was modeled separately to predict future trends.
@@ -39,7 +39,7 @@ Each decision tree learns a subset of data patterns.
 Predictions from all trees are averaged to produce a robust final forecast.
 The model uses engineered features to infer future passenger counts.
 
-### 🧩 Model Evaluation Metrics
+###  Model Evaluation Metrics
 
 | Metric | Description                       | Typical Range |
 | ------ | --------------------------------- | ------------- |
@@ -67,7 +67,7 @@ The model uses engineered features to infer future passenger counts.
 | ⚡ Rapid Route          | Rising trend                      | Increase frequency during rush hours            |
 | 📊 Forecast (7-day)    | 5–10% ridership increase expected | Prepare for higher operational load             |
 
-📊 Key Features
+ Key Features
 * Data cleaning and preprocessing for ridership datasets
 * Time series analysis for multiple transport services
 * Short-term ridership forecasting using Random Forest
@@ -104,7 +104,8 @@ KEY INSIGHTS ANALYSIS
    Rapid Route: +18.5% change from 2019 to 2024
    Light Rail: +33.2% change from 2019 to 2024
 
-🧭 Workflow
+Workflow
+
 1. Load & Clean Data
     * Convert timestamps to datetime
     * Remove duplicates and handle nulls
